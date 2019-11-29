@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
                 txtResult.text = "BMI %.2f (%s)".format(userBMI, status)
             }catch (ex:Exception){
                 val toast:Toast = Toast.makeText(this,"Invalid Input", Toast.LENGTH_LONG)
-
                 toast.setGravity(Gravity.CENTER,0,0)
                 toast.show()
             }
