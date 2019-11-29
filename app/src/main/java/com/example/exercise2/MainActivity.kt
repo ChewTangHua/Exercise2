@@ -55,6 +55,8 @@ class MainActivity : AppCompatActivity() {
             InHeight.setText("")
             txtResult.setText("")
             ResultImg.setImageResource(R.drawable.empty)
+
+            InHeight.requestFocus()
         }
 
     }
